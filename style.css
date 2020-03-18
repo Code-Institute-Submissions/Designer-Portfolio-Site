@@ -1,65 +1,72 @@
 
- html {
-    /*height: 100%;*/
-    /*overflow-x: hidden;*/
-    scroll-behavior: smooth;
-}   
+  @import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,400,500&display=swap');
 
-body {
-    font-family: 'Roboto', sans-serif;
-    font-weight:100;
-    font-size: 1em;
-    color: #222;
-    height:100%;
-    overflow-x: hidden;
-    
-    /*margin-top:105px;
-    background: #FFEB00;*/
-}
-
-.header {
-    padding-top:15px;
-    padding-bottom: 15px;
-    /*background: white !important;*/
-}
-
-.logo {
-    width:85px;
-    height:85px;
-    text-align:center;
-}
-
-.logo a {
-    display:block;
-    border:none;
-    text-decoration: none;
-    width:105px;
-    height:105px;
-    background: url(images/logo.png) no-repeat center;
-    background-size: 100px 100px;
-}
- 
- .home {
-     height: 580px; 
-     background: url(images/background_pattern.png) #FFEB00;
- }
- 
- .navbar-collapse {
-     background: transparent !important;
- }
- 
- #headline_row {
-     height:100%;
- }
- 
- .headline{
-     font-size: 3.5em;
-     line-height: 1.2em;
- }
- 
- .home-image {
-     height:100%;
- }
+  html {
+      /*height: 100%;*/
+      /*overflow-x: hidden;*/
+      scroll-behavior: smooth;
+  }   
+  
+  body {
+      font-family: 'Roboto', sans-serif;
+      font-weight:100;
+      font-size: 1em;
+      color: #222;
+      height:100%;
+      overflow-x: hidden;
+      
+      /*margin-top:105px;
+      background: #FFEB00;*/
+  }
+  
+  .header {
+      padding-top:15px;
+      padding-bottom: 15px;
+      /*background: white !important;*/
+  }
+  
+  .logo {
+      width:85px;
+      height:85px;
+      text-align:center;
+  }
+  
+  .logo a {
+      display:block;
+      border:none;
+      text-decoration: none;
+      width:105px;
+      height:105px;
+      background: url(images/logo.png) no-repeat center;
+      background-size: 100px 100px;
+  }
+  
+  .home {
+      height: 100%; 
+      background: url(images/background_pattern.png) #FFEB00;
+  }
+  
+  .navbar-collapse {
+      background: transparent !important;
+  }
+  
+  #headline_row {
+      height:100%;
+  }
+  
+  .headline{
+      font-size: 3.5em;
+      line-height: 1.2em;
+  }
+  
+  .home-image {
+      height:100%;
+  }
+  
+  .jumbotron {
+      background:none;
+      /*text-align: center;*/
+  }  
  
  .jumbotron h1.display-1 {
     font-weight: 500;
@@ -165,52 +172,25 @@ body {
     background-color: #FFEB00;
 }
 
- .card {
-     background: none;
-     border:none;
- }
- 
- .about .card img {
-     width:140px;
-     height:auto;
-     text-align: center;
- }
- 
- .card-title {
-     text-transform: uppercase;
-     font-weight: 400;
- }
- 
- .portfolio{
-     height:100%;
-     min-height:100%;
-     background-color:#4EB9B1;
-     background-image: url(images/background_pattern.png);
- 
- }
- 
- .portfolio-2{
-     height:100%;
-     min-height:100%;
-     background-color:#333;
- }
- 
- .portfolio-3{
-     height:100%;
-     min-height:100%;
-     background-color:#3d3d3d;
- }
- 
- .portfolio .card img{
-     /*width:205px;*/
-     background:#000;
-     overflow:hidden;
- 
- }
- 
- .card-number {    
-     font-style:oblique;
- }
+.portfolio{
+    height:100%;
+    min-height:100%;
+    background-color:#FC7BA6;
+    
+}
+.portfolio .card img{
+    /*width:205px;*/
+    overflow:hidden;
+}
+
+.portfolio .card-title{
+    font-weight:100;
+    font-style:italic;
+}
+
+.card-number {    
+    font-style:oblique;
+}
  
  
  .contact{
