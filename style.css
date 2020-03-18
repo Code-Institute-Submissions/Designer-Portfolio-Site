@@ -1,42 +1,43 @@
 
- @import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,400,500&display=swap');
-
  html {
-     /*height: 100%;*/
-     /*overflow-x: hidden;*/
-     scroll-behavior: smooth;
- }
- 
- body {
-     font-family: 'Roboto', 'Arial';
-     font-weight:100;
-     color: #4d4d4d;
-     letter-spacing: 1px;
-     height:100%;
-     overflow-x: hidden;
-     /*margin-top:105px;*/
-     background: url(images/background_pattern.png);
- }
- 
- .header {
-     height:105px;
-     background: white !important;
- }
- 
- .logo {
-     width:55px;
-     height:55px;
- }
- 
- .logo a {
-     display:block;
-     border:none;
-     text-decoration: none;
-     width:55px;
-     height:55px;
-     background: url(images/jw_logo_80px.png) no-repeat center;
-     background-size: 50px 50px;
- }
+    /*height: 100%;*/
+    /*overflow-x: hidden;*/
+    scroll-behavior: smooth;
+}   
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight:100;
+    font-size: 1em;
+    color: #222;
+    height:100%;
+    overflow-x: hidden;
+    
+    /*margin-top:105px;
+    background: #FFEB00;*/
+}
+
+.header {
+    padding-top:15px;
+    padding-bottom: 15px;
+    /*background: white !important;*/
+}
+
+.logo {
+    width:85px;
+    height:85px;
+    text-align:center;
+}
+
+.logo a {
+    display:block;
+    border:none;
+    text-decoration: none;
+    width:105px;
+    height:105px;
+    background: url(images/logo.png) no-repeat center;
+    background-size: 100px 100px;
+}
  
  .home {
      height: 580px; 
@@ -64,23 +65,32 @@
      background:none;
      text-align: center;
  }
- .nav {
-     font-weight:400;
- }
- 
- .nav a:link {
-     color: #fff; 
-     font-size:0.98em;
- }
- 
- .nav a:hover{
-     color:#4EB9B1;
- }
- 
- .nav a:visited {
-     color: #4d4d4d;
- }
- 
+ #navi {
+    /*margin-top:100px;*/
+    z-index: 1030;
+    padding-left:50px;
+    padding-top:100px;
+    position: fixed;
+}
+
+.nav {
+    font-weight:300;
+    letter-spacing: 0.05em;
+    font-size: 1.5em;
+}
+
+.nav li a:link {
+    color: #4d4d4d; 
+    font-size:1.1em;
+}
+
+.nav li a:visited {
+    color: #4d4d4d;
+}
+
+.nav li a:hover{
+    color:#4EB9B1;
+}
  #about-container, #porfolio-container, #porfolio-container-2, #porfolio-container-3, #contactform{
      padding-top:70px;
      padding-bottom:70px;
