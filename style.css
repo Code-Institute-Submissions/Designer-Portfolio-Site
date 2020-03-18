@@ -18,6 +18,14 @@
       /*margin-top:105px;
       background: #FFEB00;*/
   }
+
+  #about-container, 
+  #porfolio-container, 
+  #contactform{
+    padding-top:70px;
+    padding-bottom:70px;
+    height:100%;
+}
   
   .header {
       padding-top:15px;
@@ -101,11 +109,7 @@
 .nav li a:hover{
     color:#4EB9B1;
 }
- #about-container, #porfolio-container, #porfolio-container-2, #porfolio-container-3, #contactform{
-     padding-top:70px;
-     padding-bottom:70px;
- }
- 
+
  #social-links ul {
     margin:0;
     padding:0;
@@ -143,13 +147,14 @@
     background-image: url(images/Icon-awesome-linkedin-hover.png);
 }
  
- .about {
-     background: #D5688D;
-     height:100%;
-     min-height:100%;
- }
- 
- h1 {
+.about {
+    background: #6EDDD4;
+    height:100%;
+    min-height:100%;
+}
+
+
+h1 {
     font-size:4em;
     font-weight: 500 !important;
     text-transform: uppercase;
@@ -160,6 +165,10 @@
      text-transform: uppercase;
  }
  
+ .thin-font{
+    font-weight:100 !important;
+}
+
  .white {
      color:#fff;
  }
@@ -172,12 +181,27 @@
     background-color: #FFEB00;
 }
 
+.white-bg{
+    background-color: white;
+}
+
+
+#skills p{
+    font-size:2.5em;
+}
+
+#software p{
+    font-size:1.3em;
+}
+ 
+
 .portfolio{
     height:100%;
     min-height:100%;
     background-color:#FC7BA6;
     
 }
+
 .portfolio .card img{
     /*width:205px;*/
     overflow:hidden;
@@ -221,14 +245,6 @@
      text-align:center;
  
  }
- 
- #myVideo {
-     position: fixed;
-     right: 0;
-     bottom: 0;
-     min-width: 100%;
-     min-height: 100%;
-   }
  
  /* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
  /* @media screen and (max-width: 360px) {
