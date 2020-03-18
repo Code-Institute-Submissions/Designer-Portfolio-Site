@@ -1,0 +1,285 @@
+
+ @import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,400,500&display=swap');
+
+ html {
+     /*height: 100%;*/
+     /*overflow-x: hidden;*/
+     scroll-behavior: smooth;
+ }
+ 
+ body {
+     font-family: 'Roboto', 'Arial';
+     font-weight:100;
+     color: #4d4d4d;
+     letter-spacing: 1px;
+     height:100%;
+     overflow-x: hidden;
+     /*margin-top:105px;*/
+     background: url(images/background_pattern.png);
+ }
+ 
+ .header {
+     height:105px;
+     background: white !important;
+ }
+ 
+ .logo {
+     width:55px;
+     height:55px;
+ }
+ 
+ .logo a {
+     display:block;
+     border:none;
+     text-decoration: none;
+     width:55px;
+     height:55px;
+     background: url(images/jw_logo_80px.png) no-repeat center;
+     background-size: 50px 50px;
+ }
+ 
+ .home {
+     height: 580px; 
+     background: url(images/background_pattern.png) #FFEB00;
+ }
+ 
+ .navbar-collapse {
+     background: transparent !important;
+ }
+ 
+ #headline_row {
+     height:100%;
+ }
+ 
+ .headline{
+     font-size: 3.5em;
+     line-height: 1.2em;
+ }
+ 
+ .home-image {
+     height:100%;
+ }
+ 
+ .jumbotron {
+     background:none;
+     text-align: center;
+ }
+ .nav {
+     font-weight:400;
+ }
+ 
+ .nav a:link {
+     color: #fff; 
+     font-size:0.98em;
+ }
+ 
+ .nav a:hover{
+     color:#4EB9B1;
+ }
+ 
+ .nav a:visited {
+     color: #4d4d4d;
+ }
+ 
+ #about-container, #porfolio-container, #porfolio-container-2, #porfolio-container-3, #contactform{
+     padding-top:70px;
+     padding-bottom:70px;
+ }
+ 
+ #social-links li a {
+     width:30px;
+ /*    margin-right:30px;*/    
+     height:30px;
+     background-size:28px;
+     background-repeat:no-repeat;
+     background-position: center;
+     /*border:1px solid blue;*/
+     display:block;
+ }
+ 
+ #social-instagram a {
+     background-image: url(images/Icon-awesome-instagram.png);
+ 
+ }
+ #social-instagram a:hover {
+     background-image: url(images/Icon-awesome-instagram-hover.png);
+ }
+ #social-behance a {
+     background-image: url(images/Icon-awesome-behance-square.png);
+ }
+ #social-behance a:hover {
+     background-image: url(images/Icon-awesome-behance-square-hover.png);
+ }
+ 
+ #social-linkedin a {
+     background-image: url(images/Icon-awesome-linkedin.png);
+ }
+ #social-linkedin a:hover {
+     background-image: url(images/Icon-awesome-linkedin-hover.png);
+ }
+ 
+ .about {
+     background: #D5688D;
+     height:100%;
+     min-height:100%;
+ }
+ 
+ h1, h3{
+     font-weight: 300;
+     text-transform: uppercase;
+ }
+ 
+ h2{
+     font-weight:100;
+     text-transform: uppercase;
+ }
+ 
+ .white {
+     color:#fff;
+ }
+ 
+ .yellow {
+     color:#FFEB00;
+ }
+ 
+ .card {
+     background: none;
+     border:none;
+ }
+ 
+ .about .card img {
+     width:140px;
+     height:auto;
+     text-align: center;
+ }
+ 
+ .card-title {
+     text-transform: uppercase;
+     font-weight: 400;
+ }
+ 
+ .portfolio{
+     height:100%;
+     min-height:100%;
+     background-color:#4EB9B1;
+     background-image: url(images/background_pattern.png);
+ 
+ }
+ 
+ .portfolio-2{
+     height:100%;
+     min-height:100%;
+     background-color:#333;
+ }
+ 
+ .portfolio-3{
+     height:100%;
+     min-height:100%;
+     background-color:#3d3d3d;
+ }
+ 
+ .portfolio .card img{
+     /*width:205px;*/
+     background:#000;
+     overflow:hidden;
+ 
+ }
+ 
+ .card-number {    
+     font-style:oblique;
+ }
+ 
+ 
+ .contact{
+     height:100%;
+     min-height:100%;
+     background-color:#F2880C;
+ }
+ 
+ 
+ .btn, .btn-primary {
+     background-color:#FFEB00;
+     border:none;
+     color:#4d4d4d;
+ 
+ }
+ 
+ a.btn:link, a.btn:visited {
+     color:#4d4d4d;
+ }
+ 
+ a.btn:hover, .btn:hover{
+     background-color: #4EB9B1;
+     color:#FFF;
+ }
+ 
+ .footer {
+     font-size:0.8em;
+     text-align:center;
+ 
+ }
+ 
+ #myVideo {
+     position: fixed;
+     right: 0;
+     bottom: 0;
+     min-width: 100%;
+     min-height: 100%;
+   }
+ 
+ /* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
+ /* @media screen and (max-width: 360px) {
+     .headline{
+         font-size: 3em;
+     }
+ } */
+ 
+ /* Extra small devices (portrait phones, less than 576px)*/
+ @media (max-width: 575.98px) { 
+     html{
+         height:auto;
+     }
+ 
+     body {
+         height:auto;
+     }
+     .home {
+         height: auto; 
+     }
+ 
+     #about-container, #porfolio-container, #porfolio-container-2, #porfolio-container-3{
+         height:auto;
+     }
+     
+     .header {
+         height:200px;
+     }
+ 
+     .headline{
+         font-size: 10vw;
+         margin-top:1em;
+     } 
+ 
+     .home-image {
+         background: url(images/home_header.png) no-repeat center bottom;
+         background-size: 100%;
+         height:500px;
+     }
+     
+     .nav li {
+         display:block;
+         width:100%;
+         line-height:0.8em;
+     }
+ 
+     .nav li a{
+         display:block;
+         width:100%;
+     } 
+ 
+     .about, .portfolio, .contact, .portfolio-2{
+         padding-top:1em;
+     }
+ 
+ }
+ 
