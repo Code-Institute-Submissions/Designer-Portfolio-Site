@@ -13,7 +13,7 @@
       font-size: 1em;
       color: #222;
       height:100%;
-      overflow-x: hidden;
+      /* overflow-x: hidden; */
       overflow-y: scroll;
   }
 
@@ -79,17 +79,26 @@
 
  #navi {
     z-index: 1030;
-    padding-left:50px;
+    /* padding-left:50px; */
     padding-top:100px;
     position: fixed;
-    min-width: 20%;
+    /* min-width: 20%; */
     text-align:center;
+    /* min-height: 100vh; */
+    width: 250px;
+    /* background-color:#FFEB00; */
+}
+
+#navi.active {
+    margin-left:-250px;
 }
 
 .nav {
     font-weight:300;
     letter-spacing: 0.05em;
     font-size: 1.5em;
+    display:inline;
+
 }
 
 .nav li a:link {
@@ -109,6 +118,16 @@
     background:transparent !important; 
     color:#FFEB00;
 
+}
+
+#sidebarCollapse {
+    
+    /* opacity:50%; */
+    /* z-index: 1040;
+    position: fixed;
+    top: 20px;
+    left: 0; */
+    visibility: hidden;
 }
 
  #social-links ul {
@@ -254,7 +273,6 @@ h1 {
      background-color: #4EB9B1;
      color:#FFF;
  }
- 
 
  .footer {
      font-size:0.8em;
@@ -264,6 +282,11 @@ h1 {
      color: #FFF;
  }
  
+ /* .wrapper{
+     display:flex;
+     width:100%; 
+      align-items: stretch;
+ } */
 
 
  /* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
@@ -286,9 +309,12 @@ h1 {
      }
      .home {
          height: auto; 
+         padding-top: 50px;
      }
- 
-
+     
+     .home-image{
+         width:425px;
+     }
     #about-container, 
     #portfolio-container, 
     #contact-container{
@@ -296,9 +322,7 @@ h1 {
         height:auto;
         margin:0 !important; 
     }
-  
 
-     
      /* div {
          display: inline-block;
      } */
@@ -306,10 +330,67 @@ h1 {
      #navi {
         /*z-index: 1030;*/
         /*padding-left:50px;*/
-        padding-top:20px;
-        position: relative;
+        padding-top:0; 
+        /* position: fixed; */
         text-align:center;
         font-size: 0.9em;
+        width: 100%;
+        /* margin-top:-250px; */
+        height:auto;
+        background-color: #fff;
+    }
+    
+    #nav-bar {
+        margin-top: -105px;
+        height:150px;
+        padding-bottom: 200px;
+    }
+
+    #nav-bar.active {
+        margin-top: 105px;
+        padding-bottom: 0px;
+    } 
+
+    #sidebarCollapse {
+        visibility: visible;
+        /* display:block; */
+        height: 35px;
+        width: 100%;
+        border-width: 1px 1px 1px 0px;
+        border-color: #fff;
+        border-style:solid;
+        border-radius: 5px;
+        background-color:#F2F2F2;
+        align-items: center;
+        /* margin-top:50px; */
+    }
+
+    .logo {
+        width:100%;
+        height:105px;
+        text-align:center;
+        margin-bottom:15px;
+        position:fixed;
+        z-index: 1030;
+        display:block;
+        padding-top:10px;
+        background-color: #fff;
+    }
+    
+    .logo a {
+        width:100%;
+        height:85px;
+        background-size: 75px 75px;
+        background-position: center;        
+    }
+
+    .nav {
+        /* padding-top:100px; */
+        /* margin-top:-150px; */
+        font-weight:300;
+        letter-spacing: 0.05em;
+        font-size: 1.5em;
+        /* display:block; */
     }
     
     .jumbotron h1.display-1 {
@@ -330,21 +411,7 @@ h1 {
     }
    
     
-    .logo {
-        width:85px;
-        height:85px;
-        text-align:center;
-        margin-bottom:15px;
-        position:fixed;
-        z-index: 1030;
-    }
     
-    .logo a {
-        width:85px;
-        height:85px;
-        background-size: 80px 80px;
-
-    }
 
     
  }
