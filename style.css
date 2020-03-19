@@ -14,15 +14,16 @@
       color: #222;
       height:100%;
       overflow-x: hidden;
+      overflow-y: scroll;
   }
 
-  #about-container, 
-  #porfolio-container, 
-  #contactform{
+  #about, 
+  #portfolio, 
+  #contact{
     padding-top:70px;
     padding-bottom:70px;
     height:100%;
-}
+    }
   
   .header {
       padding-top:15px;
@@ -101,6 +102,12 @@
 
 .nav li a:hover{
     color:#4EB9B1;
+}
+
+.nav-pills .nav-link.active {
+    background:transparent !important; 
+    color:#FFEB00;
+
 }
 
  #social-links ul {
@@ -233,6 +240,8 @@ h1 {
  .footer {
      font-size:0.8em;
      text-align:center;
+     margin-top:20px;
+     height:60px;
  }
  
 

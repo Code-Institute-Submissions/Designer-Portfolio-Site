@@ -13,9 +13,6 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
 
-    <!--JQUERY-->
-    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-
     <!--AOS CSS & JS-->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -24,20 +21,20 @@
     <title>Graphic | Web | Photography</title>
 </head>
 
-<body>
-    
-    <div class="container-fluid m-0 p-0">
+<body data-spy="scroll" data-target="#navi" data-offset="0">
+    <a name="top"></a>
+    <div class="container-fluid m-0 p-0"> 
         <div id="navi" class="col-sm-2">
-            <div class="logo col mx-auto"><a href="#"></a></div>
-            <ul class="nav flex-column">
-                <li class="nav-item">
-                    <a class="nav-link" href="#portfolio-section">My Works_</a>
+            <div class="logo col mx-auto"><a href="#top"></a></div>
+            <ul class="nav flex-column ">
+                <li class="nav-item nav-pills">
+                    <a class="nav-link" href="#portfolio">My Works_</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#about-section">About_</a>
+                <li class="nav-item nav-pills">
+                    <a class="nav-link" href="#about">About_</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#Contact">Contact_</a>
+                <li class="nav-item nav-pills">
+                    <a class="nav-link" href="#contact">Contact_</a>
                 </li>
             </ul>
             </div>
@@ -66,7 +63,7 @@
             <div id="headline_row" class="row mx-0 align-items-center justify-content-end" data-aos="fade-in">
                 <div class="col-sm-10 align-items-end">
                     <div class="row align-items-center">
-                        <div class="col-sm-6 d-flex" data-aos="fade-down" data-aos-delay="200" data-aos-duration="2000"
+                        <div class="col-sm-6" data-aos="fade-down" data-aos-delay="200" data-aos-duration="2000"
                             data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"
                             data-aos-anchor-placement="top-center">
                             <div class="jumbotron">
@@ -92,12 +89,13 @@
                 </div>
             </div>
         </section>
-        <section class="portfolio" data-aos="fade-in" data-aos-delay="200" data-aos-duration="5000">
-            <a name="portfolio-section"></a>
-            <div id="about-container" class="row mx-0 align-items-center justify-content-end">
-                <div class="col text-center ">
+        <a name="portfolio"></a>
+        <section class="portfolio" data-aos="fade-in" data-aos-delay="200" data-aos-duration="1000" id="portfolio">
+            <div id="portfolio-container" class="row mr-0 align-items-center justify-content-end">
+                
+                <div class="col-sm-10 text-center bg-white">
+                    
                     <h1><span class="thin-font">My</span> Works<span class="thin-font">_</span></h1>
-
                     <div class="card mb-3 mx-auto rounded-0" style="max-width: 750px;" data-aos="fade-up" data-aos-offset="100" data-aos-delay="100" data-aos-duration="2000" data-aos-easing="ease-in-out">
                         <img src="images/portfolio_1.jpg"
                             class="card-img-top img-fluid p-1 border border-white rounded-0"
@@ -108,7 +106,7 @@
                         </div>
                     </div>
                     <!-- use slideToggle -->
-                    <div class="card mb-3 mr-0 rounded-0" style="max-width: 750px;" data-aos="fade-up" data-aos-offset="100" data-aos-delay="100" data-aos-duration="2000">
+                    <div class="card mb-3 mr-sm-0 rounded-0" style="max-width: 750px;" data-aos="fade-up" data-aos-offset="100" data-aos-delay="100" data-aos-duration="2000">
                         <img src="images/portfolio_2.jpg"
                             class="card-img-top  img-fluid p-1 border border-white rounded-0"
                             alt="Brotzeit Oktoberfest Timeline Infographics">
@@ -130,9 +128,9 @@
                 </div>
             </div>
         </section>
-        <section class="about">
-            <a name="about-section"></a>
-            <div id="about-container" class="row mx-0 align-items-center justify-content-end">
+        <a  name="about"></a>
+        <section class="about" id="about">
+            <div id="contact-container" class="row mx-0 align-items-center justify-content-end">
                 <div class="col-sm-10">
                     <h1 class="text-center text-white">About <span class="thin-font">Jolene_</span></h1>
 
@@ -166,41 +164,43 @@
                 </div>
             </div>
         </section>
-
-        <section class="contact">
-            <a name="Contact"></a>
+        <a name="contact"></a>
+        <section class="contact" id="contact" >
             <div id="contactform" class="row justify-content-center align-items-center mx-0 pb-5">
               <div class="col-sm-6 text-center m-2">
                 <h1 class="yellow">CONTACT_</h1>
                 <p class="text-white">Drop me a message if you would like to collaborate!</p>
                 
-                <form method="_post">
-                  <div class="form-group row white">
-                      <label for="name">Your Name</label>
-                      <input type="text" class="form-control bg-transparent border-white" name="name" placeholder="e.g. John Doe" >
-                  </div>
-                  <div class="form-group row white">
-                    <label for="email">Email Address</label>
-                      <input type="email" class="form-control bg-transparent border-white" name="email" placeholder="e.g. johndoe@gmail.com">
-                  </div>  
-                  <div class="form-group row white">
-                      <label for="message">Message</label>
-                      <textarea class="form-control bg-transparent border-white" cols="10" rows="6"></textarea>
-                  </div>
-                  <input type="submit" name="submit" value="Submit" class="btn btn-primary rounded-0 pl-5 pr-5"> <input type="reset" name="reset" value="Reset" class="btn btn-primary rounded-0 pl-5 pr-5">
-                </form>
-                
+                <form action="https://getsimpleform.com/messages?form_api_token=2208a77b6c2b3ea3bc025cbb5f9a7147" method="post">
+                    <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+                    <input type='hidden' name='redirect_to' value='https://jolenewai.github.io/Designer-Portfolio-Site/' />
+                    <!-- all your input fields here.... -->
+                    <!-- <input type='text' name='test' />
+                    <input type='submit' value='Test form' /> -->
+                    <div class="form-group row white">
+                        <label for="name">Your Name</label>
+                        <input type="text" class="form-control bg-transparent border-white" name="name" placeholder="e.g. John Doe" >
+                    </div>
+                    <div class="form-group row white">
+                      <label for="email">Email Address</label>
+                        <input type="email" class="form-control bg-transparent border-white" name="email" placeholder="e.g. johndoe@gmail.com">
+                    </div>  
+                    <div class="form-group row white">
+                        <label for="message">Message</label>
+                        <textarea name="message" class="form-control bg-transparent border-white" cols="10" rows="6"></textarea>
+                    </div>
+                    <input type="submit" name="submit" value="Submit" class="btn btn-primary rounded-0 pl-5 pr-5"> <input type="reset" name="reset" value="Reset" class="btn btn-primary rounded-0 pl-5 pr-5">
+                  </form>
+
               </div>
             </div>
           </section>
         
     </div>
     <section class="footer">
-        <div class="row container-fluid">
-            <div class="col-sm-6 mr-0 text-center pt-3">
-                Created by Jolene Wai &copy; 2020
-            </div>
-        </div>
+      
+      <p>Created by Jolene Wai &copy; 2020</p> 
+       
         
     </section>
     <!-- Optional JavaScript -->
@@ -208,6 +208,8 @@
     
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     
+    <!--JQUERY-->
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
         crossorigin="anonymous"></script>
