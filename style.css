@@ -73,7 +73,7 @@
  .jumbotron h1.display-1 {
     font-weight: 500;
     letter-spacing: -0.02em;
-    font-size:8em;
+    font-size:6.5em;
     line-height: 0.8em;
 }
 
@@ -89,9 +89,6 @@
     /* background-color:#FFEB00; */
 }
 
-#navi.active {
-    margin-left:-250px;
-}
 
 .nav {
     font-weight:300;
@@ -121,17 +118,12 @@
 }
 
 #sidebarCollapse {
-    
-    /* opacity:50%; */
-    /* z-index: 1040;
-    position: fixed;
-    top: 20px;
-    left: 0; */
+
     visibility: hidden;
 }
 
  #social-links ul {
-    margin:0;
+    margin-right:30px;
     padding:0;
 }
 
@@ -141,9 +133,7 @@
     background-size:22px;
     background-repeat:no-repeat;
     background-position: center;
-    /*border:1px solid blue;*/
     display:block;
-
 }
 
 #social-instagram a {
@@ -278,7 +268,7 @@ h1 {
      font-size:0.8em;
      text-align:center;
      padding:20px 0;
-     background-color: #444;
+     background-color: #000;
      color: #FFF;
  }
  
@@ -300,12 +290,12 @@ h1 {
  @media (max-width: 575.98px) { 
      html{
          height:auto;
-         overflow-x:hidden;
      }
  
      body {
          height:auto;
-         font-size:0.85em;
+         font-size:0.75em;
+         overflow-x:hidden;
      }
      .home {
          height: auto; 
@@ -396,23 +386,38 @@ h1 {
     .jumbotron h1.display-1 {
         font-weight: 500;
         letter-spacing: -0.02em;
-        font-size:6em;
+        font-size:5em;
         line-height: 0.8em;
     }
 
     #social-links ul {
-
         text-align: center;
+        margin-top: 100px;
     }
 
     .portfolio .card-body, .portfolio .card  {
         min-width:350px;
         max-width:350px;
     }
-   
-    
-    
-
     
  }
  
+ @media (min-width: 768px) { 
+    html{
+        height:auto;
+    }
+
+    body {
+        height:auto;
+        font-size:0.65em;
+        overflow-x:hidden;
+    }
+
+    .jumbotron h1.display-1 {
+        font-weight: 500;
+        letter-spacing: -0.02em;
+        font-size:5.5em;
+        line-height: 0.8em;
+    }
+
+  }
