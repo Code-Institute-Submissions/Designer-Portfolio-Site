@@ -17,9 +17,9 @@
       overflow-y: scroll;
   }
 
-  #about, 
-  #portfolio, 
-  #contact{
+  #about-container, 
+  #portfolio-container, 
+  #contact-container{
     padding-top:70px;
     padding-bottom:70px;
     height:100%;
@@ -83,6 +83,7 @@
     padding-top:100px;
     position: fixed;
     min-width: 20%;
+    text-align:center;
 }
 
 .nav {
@@ -151,6 +152,10 @@
     min-height:100%;
 }
 
+.bg-turquois {
+    background: #6EDDD4;
+}
+
 h1 {
     font-size:4em;
     font-weight: 500 !important;
@@ -191,14 +196,19 @@ h1 {
     font-size:1.3em;
 }
  
-
 .portfolio{
     height:100%;
     min-height:100%;
     background-color:#FC7BA6;
-    
 }
 
+.portfolio .card {
+    max-width:750px;
+}
+.portfolio .card-body {
+    background-color: #FFEB00;
+    max-width:750px;
+}
 .portfolio .card img{
     /*width:205px;*/
     overflow:hidden;
@@ -227,7 +237,15 @@ h1 {
      color:#4d4d4d;
  
  }
- 
+ a:visited, a:link  {
+     color:#444;
+ }
+
+ a:hover {
+     text-decoration: none;
+     color:#FFF;
+ }
+
  a.btn:link, a.btn:visited {
      color:#4d4d4d;
  }
@@ -237,11 +255,13 @@ h1 {
      color:#FFF;
  }
  
+
  .footer {
      font-size:0.8em;
      text-align:center;
-     margin-top:20px;
-     height:60px;
+     padding:20px 0;
+     background-color: #444;
+     color: #FFF;
  }
  
 
@@ -257,6 +277,7 @@ h1 {
  @media (max-width: 575.98px) { 
      html{
          height:auto;
+         overflow-x:hidden;
      }
  
      body {
@@ -267,11 +288,22 @@ h1 {
          height: auto; 
      }
  
+
+    #about-container, 
+    #portfolio-container, 
+    #contact-container{
+        padding:30px 10px !important;
+        height:auto;
+        margin:0 !important; 
+    }
+  
      #about-container, 
      #porfolio-container{
-         height:auto;
      }
      
+     /* div {
+         display: inline-block;
+     } */
 
      #navi {
         /*z-index: 1030;*/
@@ -294,6 +326,12 @@ h1 {
         text-align: center;
     }
 
+    .portfolio .card-body, .portfolio .card  {
+        min-width:350px;
+        max-width:350px;
+    }
+   {
+    }
     .logo {
         width:85px;
         height:85px;
@@ -310,5 +348,7 @@ h1 {
         background: url(images/logo.png) no-repeat center;
         background-size: 80px 80px;
     }
+
+    
  }
  
