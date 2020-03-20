@@ -26,29 +26,29 @@
 <body data-spy="scroll" data-target="#navi" data-offset="0">
 
     <a name="top"></a>
-    <div class="container-fluid m-0 px-0 overflow-hidden">
-        <div id="navi" class="row m-0 px-0">
+    <div id="navi" class="row m-0 px-0">
 
-            <div class="col px-0">
-                <div class="logo px-0 mx-auto"><a href="#top"></a></div>
-                <div id="nav-bar">
-                    <ul class="nav">
-                        <li class="nav-item nav-pills">
-                            <a class="nav-link" href="#portfolio">My Works_</a>
-                        </li>
-                        <li class="nav-item nav-pills">
-                            <a class="nav-link" href="#about">About_</a>
-                        </li>
-                        <li class="nav-item nav-pills">
-                            <a class="nav-link" href="#contact">Contact_</a>
-                        </li>
-                    </ul>
-                </div>
-                <div id="sidebarCollapse" class="px-0 mx-auto fa-2x"> <i class="fas fa-caret-down"></i></div>
-
+        <div class="col px-0">
+            <div class="logo px-0 mx-auto"><a href="#top"></a></div>
+            <div id="nav-bar">
+                <ul class="nav">
+                    <li class="nav-item nav-pills">
+                        <a class="nav-link" href="#portfolio">My Works_</a>
+                    </li>
+                    <li class="nav-item nav-pills">
+                        <a class="nav-link" href="#about">About_</a>
+                    </li>
+                    <li class="nav-item nav-pills">
+                        <a class="nav-link" href="#contact">Contact_</a>
+                    </li>
+                </ul>
             </div>
-        </div>
+            <div id="sidebarCollapse" class="px-0 mx-auto fa-2x"> <i class="fas fa-caret-down"></i></div>
 
+        </div>
+    </div>
+    <div class="container-fluid m-0 px-0 overflow-hidden">
+       
         <section class="home" data-aos="fade-up">
             <header class="row header px-0 mx-0">
                 <div id="social-links" class="ml-auto">
@@ -69,7 +69,7 @@
             <div id="headline_row" class="row p-0 mx-0 align-items-center justify-content-end" data-aos="fade-in">
                 <div class="col-sm-10 align-items-end">
                     <div class="row align-items-center">
-                        <div class="col-sm-6" data-aos="fade-down" data-aos-delay="200" data-aos-duration="2000"
+                        <div class="col-sm-6" data-aos="fade-up" data-aos-delay="200" data-aos-duration="2000"
                             data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"
                             data-aos-anchor-placement="top-center">
                             <div class="jumbotron">
@@ -82,7 +82,7 @@
                                 </blockquote>
                             </div>
                         </div>
-                        <div class="home-image d-flex align-items-end col-sm-6 order-first" data-aos="fade-left"
+                        <div class="home-image d-flex align-items-end col-sm-6 order-first" data-aos="fade-down"
                             data-aos-offset="100" data-aos-delay="300" data-aos-duration="2000"
                             data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"
                             data-aos-anchor-placement="top-center">
@@ -132,10 +132,9 @@
                         <p class="card-text">Brotzeit German Bier Bar &amp; Restaurant</p>
                     </div>
                     <div class="row">
-                        <div class="col-sm-4 bg-turquois p-2 mx-auto"><a class="lead"
-                                href="https://www.behance.net/jwld" target="_blank">View more on Behance >></a></div>
+                            <a class="btn btn-primary px-5 mx-auto mt-2 thin-font"  
+                            href="https://www.linkedin.com/in/jolene-wai-44744729/" target="_blank">View more on Behance</a>
                     </div>
-
                 </div>
             </div>
         </section>
@@ -175,8 +174,11 @@
                             <p class="lead"><mark>Diploma in Software Development<em>(2020)</em></mark> <br />
                                 Bachelor Degree in Communication Design <em>(2010)</em></em><br />
                                 Diploma in Information Technology <em>(2003)</em></p>
+                                <a class="btn btn-primary px-5 mx-auto mt-2 thin-font"  
+                                    href="https://www.linkedin.com/in/jolene-wai-44744729/" target="_blank">Read more on LinkedIn</a>
                         </div>
                     </div>
+                   
                 </div>
             </div>
         </section>
@@ -193,16 +195,16 @@
                         method="post">
                         <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
                         <input type='hidden' name='redirect_to'
-                            value='https://jolenewai.github.io/Designer-Portfolio-Site/' />
+                            value='https://jolenewai.github.io/Designer-Portfolio-Site/' class="text-white" />
                         <!-- all your input fields here.... -->
                         <!-- <input type='text' name='test' />
                     <input type='submit' value='Test form' /> -->
-                        <div class="form-group row white">
+                        <div class="form-group row text-white">
                             <label for="name">Your Name</label>
                             <input type="text" class="form-control bg-transparent border-white" name="name"
                                 placeholder="e.g. John Doe">
                         </div>
-                        <div class="form-group row white">
+                        <div class="form-group row text-white">
                             <label for="email">Email Address</label>
                             <input type="email" class="form-control bg-transparent border-white" name="email"
                                 placeholder="e.g. johndoe@gmail.com">
@@ -212,8 +214,8 @@
                             <textarea name="message" class="form-control bg-transparent border-white" cols="10"
                                 rows="6"></textarea>
                         </div>
-                        <input type="submit" name="submit" value="Submit" class="btn btn-primary rounded-0 pl-5 pr-5">
-                        <input type="reset" name="reset" value="Reset" class="btn btn-primary rounded-0 pl-5 pr-5">
+                        <input type="submit" name="submit" value="Submit" class="btn btn-primary pl-5 pr-5">
+                        <input type="reset" name="reset" value="Reset" class="btn btn-primary pl-5 pr-5">
                     </form>
 
                 </div>
