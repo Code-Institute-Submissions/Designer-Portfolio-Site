@@ -1,12 +1,11 @@
 <img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
 
-Welcome USER_NAME,
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+## Background
 
-## Gitpod Reminders
+As technology evoles, it is essential for designers to have a portfolio site to showcase their works. Hence, this is a porfolio website created for myself to showcase the best works of design projects I have worked on so far. 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+URL of the portfolio site: https://jolenewai.github.io/Designer-Portfolio-Site/ 
 
 `python3 -m http.server`
 
