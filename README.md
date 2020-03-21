@@ -46,11 +46,7 @@ Bright and vibrant colours are selected in this design to capture audience atten
 
 The colour pallete:
 
-<img src="images/Ellipse 1.png" width="50" style="margin: 0;">
-<img src="images/Ellipse 2.png" width="50" style="margin: 0;">
-<img src="images/Ellipse 3.png" width="50" style="margin: 0;">
-<img src="images/Ellipse 4.png" width="50" style="margin: 0;">
-<img src="images/Ellipse 5.png" width="50" style="margin: 0;">
+<img src="images/colour_pallete.png" width="50" style="margin: 0;">
 
 
 
