@@ -38,10 +38,18 @@ __Navigation__
 
 The navigation is designed possible in two ways, first is through conventional scroll down, and another way is through direct clicking the nav bar. As this is a long page full of contents, to ease the navigation of each section, the navigation bar is fixed on the left side of the page (for desktop version), and expandable on top  (for mobile version). While user choose to navigate the page though the conventional way of scrolling down, the nav bar will show the section that the user is current in. 
 
+__Use of Colours__
+Bright and vibrant colours are selected in this design to capture audience attention. 
+
+The colour pallete:
+<img src="images/Ellipse 1.png" style="margin: 0;">
+<img src="images/Ellipse 2.png" style="margin: 0;">
+<img src="images/Ellipse 3.png" style="margin: 0;">
+<img src="images/Ellipse 4.png" style="margin: 0;">
+<img src="images/Ellipse 5.png" style="margin: 0;">
 
 
 
-To be able to catch people's attention, I chose to use a colour pallete with strong contrast 
 
 
 --------
