@@ -155,13 +155,13 @@
 }
  
 .about {
-    background: #6EDDD4;
+    background: #4EB9B1;
     height:100%;
     min-height:100%;
 }
 
 .bg-turquois {
-    background: #6EDDD4;
+    background: #4EB9B1;
 }
 
 h1 {
@@ -205,7 +205,7 @@ h1 {
 .portfolio{
     height:100%;
     min-height:100%;
-    background-color:#FC7BA6;
+    background-color:#D5688D;
 }
 
 .portfolio .card {

@@ -1,33 +1,48 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+<img src="images/view_across_devices.png" style="margin: 0;">
 
 
-## Background
+## Context
 
-As technology evoles, it is essential for designers to have a portfolio site to showcase their works. Hence, this is a porfolio website created for myself to showcase the best works of design projects I have worked on so far. 
+As technology evoles, it is essential for designers to have a portfolio site to showcase their works, be it to the employers or someone who is looking for a freelancer. Hence, this is a porfolio website created for myself to showcase the best works of design projects I have worked on so far. 
 
-URL of the portfolio site: https://jolenewai.github.io/Designer-Portfolio-Site/ 
+To access to the webiste: 
+https://jolenewai.github.io/Designer-Portfolio-Site/ 
 
-`python3 -m http.server`
 
-A blue button should appear to click: *Make Public*,
 
-Another blue button should appear to click: *Open Browser*.
+## UX/UI 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+__Information Structure__
 
-A blue button should appear to click: *Make Public*,
+This is a one page website. Informations are organised in sections and flow down through the page, with the sequence as follows:
+*Home
+*My Works
+*About
+*Contact
 
-Another blue button should appear to click: *Open Browser*.
+__Home__
+The page starts with a greeting and short introduction with an illustration as a symbol of myself
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+__My Works__
+This is a section where user can see my design works, with description of each artwork about
 
-## Updates Since The Instructional Video
+__About__
+A more in-depth introduction on my skills set, software knowledge and education background
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
+__Contact__
+A contact form to enable user to drop me a message in case they need a collaboration
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+Information is structured in this way to cater to the audience needs. Usually for a designer, people would like to see their works before seeing their biography. After finding out more about this person, then they will decide whether to contact or not.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+__Navigation__
+
+The navigation is designed possible in two ways, first is through conventional scroll down, and another way is through direct clicking the nav bar. As this is a long page full of contents, to ease the navigation of each section, the navigation bar is fixed on the left side of the page (for desktop version), and expandable on top  (for mobile version). While user choose to navigate the page though the conventional way of scrolling down, the nav bar will show the section that the user is current in. 
+
+
+
+
+To be able to catch people's attention, I chose to use a colour pallete with strong contrast 
+
 
 --------
 
