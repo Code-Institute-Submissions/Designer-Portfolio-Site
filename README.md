@@ -89,7 +89,8 @@ __Call for Action__
 * Bootstrap version 4.4</a>
 * HTML 
 * CSS
-* Javascript
+* Javascript 
+* JQuery
 
 ## Plugins
 
