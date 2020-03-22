@@ -97,10 +97,6 @@ The animation on the website are created using the following plugin created by [
 
 * Animate on Scroll [AOS] (https://michalsnik.github.io/aos/)
 
-## Unsolved Bugs
-
-* On mobile version, when navigating through clicking on the nav bar, the top part of each section will be covered by the nav bar due to the fixed position 
-
 ## Reference / Credits
 
 ### Collapsable Nav Bar on Mobile Version
@@ -124,6 +120,9 @@ $(document).ready(function(){
 * [Google Material.io Resizer](https://material.io/resources/resizer/)
 
 
+## Unsolved Bugs
+
+* On mobile version, when navigating through clicking on the nav bar, the top part of each section will be covered by the nav bar due to the fixed position 
 
 --------
 
