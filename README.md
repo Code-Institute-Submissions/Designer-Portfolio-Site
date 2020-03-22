@@ -52,14 +52,17 @@ This set of colours are selected based on the following characteristic:
 
 __Primary Colours__
 
-<img src="images/Ellipse 1.png" width="20" style="margin: 0;"> Yellow - positive energy and creativity
-<img src="images/Ellipse 5.png" width="20" style="margin: 0;"> Black - Elegance and Formality
+<img src="images/Ellipse 1.png" width="20" style="margin: 0;"> **Yellow** - positive energy and creativity
+
+<img src="images/Ellipse 5.png" width="20" style="margin: 0;"> **Black** - Elegance and Formality
 
 __Secondary Colours__
 
-<img src="images/Ellipse 3.png" width="20" style="margin: 0;"> Muted Pink - Passionate  
-<img src="images/Ellipse 2.png" width="20" style="margin: 0;"> Turquoise Green - Balance and harmony
-<img src="images/Ellipse 4.png" width="20" style="margin: 0;"> Orange - Vibrant, creativity
+<img src="images/Ellipse 3.png" width="20" style="margin: 0;"> **Muted Pink** - Passionate  
+
+<img src="images/Ellipse 2.png" width="20" style="margin: 0;"> **Turquoise Green** - Balance and harmony
+
+<img src="images/Ellipse 4.png" width="20" style="margin: 0;"> **Orange** - Vibrant, creativity
 
 ## Layout
 
