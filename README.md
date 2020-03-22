@@ -42,6 +42,10 @@ Information is structured in this way to cater to the audience needs. Usually fo
 
 The navigation is designed possible in two ways, first is through conventional scroll down, and another way is through direct clicking the nav bar. As this is a long page full of contents, to ease the navigation of each section, the navigation bar is fixed on the left side of the page (for desktop version), and expandable on top  (for mobile version). While user choose to navigate the page though the conventional way of scrolling down, the nav bar will show the section that the user is current in. 
 
+## Responsiveness
+
+This website is responsive to mobile and other smaller devices
+
 ## Colours
 
 Bright and vibrant colours are selected in this design to capture audience attention.
