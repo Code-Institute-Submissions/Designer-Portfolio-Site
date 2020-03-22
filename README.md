@@ -18,16 +18,16 @@ This is a one page website. Informations are organised in sections and flow down
 - About
 - Contact
 
-# Home
+### Home
 The page starts with a greeting and short introduction with an illustration as a symbol of myself
 
-# My Works
+### My Works
 This is a section where user can see my design works, with description of each artwork about
 
-# About
+### About
 A more in-depth introduction on my skills set, software knowledge and education background
 
-# Contact
+### Contact
 A contact form to enable user to drop me a message in case they need a collaboration
 
 Information is structured in this way to cater to the audience needs. Usually for a designer, people would like to see their works before seeing their biography. After finding out more about this person, then they will decide whether to contact or not.
@@ -51,15 +51,14 @@ This set of colours are selected based on the following characteristic:
 
 __Primary Colours__
 
-Yellow - positive energy and creativity
-Black - Elegance and Formality
+* Yellow - positive energy and creativity
+* Black - Elegance and Formality
 
 __Secondary Colours__
 
-Muted Pink - Passionate  
-Turquoise Green - Balance and harmony
-Orange - Vibrant, creativity
-
+* Muted Pink - Passionate  
+* Turquoise Green - Balance and harmony
+* Orange - Vibrant, creativity
 
 ## Layout
 
@@ -76,8 +75,37 @@ __Negative Space__
 
 * Plenty of negative space are used so that users can focus on the content
 
+## Technology
 
+* <a href="https://getbootstrap.com/docs/4.4/getting-started/introduction/">Bootstrap</a>
+* HTML 
+* CSS
+* Javascript
 
+## Plugins
+
+The animation on the website are created using the following plugin created by [michalsnik](https://github.com/michalsnik/aos)
+
+* Animate on Scroll [AOS] (https://michalsnik.github.io/aos/)
+
+## Reference
+
+### Collapsable Nav Bar on Mobile Version
+
+```
+$(document).ready(function(){
+    $('#sidebarCollapse').click(function(){
+        // alert('hi')
+        $('#nav-bar').toggleClass('active')
+        $('#sidebarCollapse i').toggleClass('fa-rotate-180')
+    })
+
+})
+```
+
+* The codes for expandable navigation bar functionality above had made reference to the following tutorial:
+
+[Bootstrap Sidebar](https://bootstrapious.com/p/bootstrap-sidebar)
 
 --------
 
