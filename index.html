@@ -26,7 +26,9 @@
 <body data-spy="scroll" data-target="#navi" data-offset="0">
 
     <a name="top"></a>
+    <!-- background layer for nav bar -->
     <div class="navi-background"></div>
+    <!-- start of nav bar-->
     <div id="navi" class="row m-0 px-0">
 
         <div class="col px-0">
@@ -48,6 +50,8 @@
 
         </div>
     </div>
+    <!-- end of nav bar-->
+    <!-- start of content -->
     <div class="container-fluid m-0 px-0 overflow-hidden">
        
         <section class="home" data-aos="fade-up">
@@ -102,6 +106,7 @@
                     <h1><span class="thin-font">My</span> Works<span class="thin-font">_</span></h1>
                     <p class="text-white">A showcase of my best works so far.
                     </p>
+                    <!-- start of portfolio gallery-->
                     <div class="card mb-3 mx-auto rounded-0" data-aos="fade-up" data-aos-offset="100"
                         data-aos-delay="100" data-aos-duration="2000" data-aos-easing="ease-in-out">
                         <img src="images/portfolio_1.jpg"
@@ -166,6 +171,7 @@
                             <a class="btn btn-primary px-5 mx-auto mt-2"  
                             href="https://www.behance.net/jwld" target="_blank">View more on Behance</a>
                     </div>
+                    <!-- end of porfolio gallery-->
                 </div>
             </div>
         </section>
@@ -174,9 +180,7 @@
             <div id="about-container" class="row mx-0 align-items-center justify-content-end">
                 <div class="col-sm-10">
                     <h1 class="text-center text-white">About <span class="thin-font">Jolene_</span></h1>
-                    <!-- <p class="lead text-center">With skills in both <span class="white-bg">Desigs and
-                        Programming</span> hoping to create more <strong>GREAT</strong> <em>designs with
-                        good functionality</em>. -->
+                    
                     <div class="row justify-content-center mt-5 m-0 p-0" data-aos="fade-left" data-aos-offset="100"
                         data-aos-delay="100" data-aos-duration="2000">
                         <div class="col-sm-8 align-self-center" id="skills">
@@ -222,12 +226,8 @@
                     <h1 class="yellow">CONTACT_</h1>
                     <p class="text-white">Drop me a message if you would like to collaborate!</p>
 
+                    <!-- dummy contact form starts -->
                     <form method="POST">
-                        <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
-                        
-                        <!-- all your input fields here.... -->
-                        <!-- <input type='text' name='test' />
-                    <input type='submit' value='Test form' /> -->
                         <div class="form-group row text-white">
                             <label for="name">Your Name</label>
                             <input type="text" class="form-control bg-transparent border-white" name="name"
@@ -246,7 +246,7 @@
                         <input type="submit" name="submit" value="Submit" class="btn btn-primary pl-5 pr-5">
                         <input type="reset" name="reset" value="Reset" class="btn btn-primary pl-5 pr-5">
                     </form>
-
+                    <!-- end of contact form -->
                 </div>
             </div>
         </section>
@@ -255,14 +255,11 @@
 
         </section>
     </div>
-
-    <!-- Optional JavaScript -->
-
-
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- end of content-->
 
     <!--JQUERY-->
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
         crossorigin="anonymous"></script>
@@ -272,10 +269,10 @@
     <script>
         AOS.init();
     </script>
-
+    
+    <!-- My own JavaScript -->
     <script src="script.js"></script>
-
-   
+    
 </body>
 
 </html>

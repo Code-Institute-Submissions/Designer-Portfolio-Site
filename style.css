@@ -1,8 +1,6 @@
   @import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,400,500&display=swap');
 
   html {
-      /*height: 100%;*/
-      /*overflow-x: hidden;*/
       scroll-behavior: smooth;
   }   
   
@@ -12,7 +10,6 @@
       font-size: 1em;
       color: #222;
       height:100%;
-      /* overflow-x: hidden; */
       overflow-y: scroll;
   }
 
@@ -27,7 +24,6 @@
   .header {
       padding-top:15px;
       padding-bottom: 15px;
-      /*background: white !important;*/
   }
   
   .logo {
@@ -83,10 +79,7 @@
     position: fixed;
     width: 220px;
     left: 20px;
-    /* min-width: 20%; */
     text-align:center;
-    /* min-height: 100vh; */
-    /* clip-path: polygon(0 0, 50% 0, 100% 0%, 100% 85%, 50% 100%, 0% 85% ); */
    }
 
 .navi-background{
@@ -95,7 +88,6 @@
     width: 220px;
     height: 400px;
     left: 20px;
-    /* background-color:#FFEB00; */
     background-color: #fff;
     opacity: 30%;
     clip-path: polygon(0 0, 50% 0, 100% 0%, 100% 85%, 50% 100%, 0% 85% );    
@@ -256,7 +248,6 @@ h1 {
 .btn:hover {
         border-color:#6EDDD4;
         background-color: #6EDDD4;
-
  }
 
 a:visited, a:link  {
@@ -285,20 +276,7 @@ a:visited, a:link  {
      color: #FFF;
  }
  
- /* .wrapper{
-     display:flex;
-     width:100%; 
-      align-items: stretch;
- } */
-
-
  /* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
- /* @media screen and (max-width: 360px) {
-     .headline{
-         font-size: 3em;
-     }
- } */
- 
  /* Extra small devices (portrait phones, less than 576px)*/
  @media (max-width: 575.98px) { 
      html{
@@ -327,19 +305,11 @@ a:visited, a:link  {
         margin:0 !important; 
     }
 
-     /* div {
-         display: inline-block;
-     } */
-
      #navi {
-        /*z-index: 1030;*/
-        /*padding-left:50px;*/
         padding-top:0; 
-        /* position: fixed; */
         text-align:center;
         font-size: 0.9em;
         width: 100%;
-        /* margin-top:-250px; */
         height:auto;
         background-color: #fff;
         left:0;
@@ -358,7 +328,6 @@ a:visited, a:link  {
 
     #sidebarCollapse {
         visibility: visible;
-        /* display:block; */
         height: 35px;
         width: 100%;
         border-width: 1px 1px 1px 0px;
@@ -367,7 +336,6 @@ a:visited, a:link  {
         border-radius: 5px;
         background-color:#F2F2F2;
         align-items: center;
-        /* margin-top:50px; */
     }
 
     .logo {
@@ -390,12 +358,9 @@ a:visited, a:link  {
     }
 
     .nav {
-        /* padding-top:100px; */
-        /* margin-top:-150px; */
         font-weight:300;
         letter-spacing: 0.05em;
         font-size: 1.5em;
-        /* display:block; */
     }
     
     .jumbotron h1.display-1 {
@@ -420,7 +385,7 @@ a:visited, a:link  {
     #social-links ul {
         text-align: center;
         margin-top: 100px;
-        z-index: 1035;
+        z-index: 1035;  
     }
 
     .portfolio .card-body, .portfolio .card  {
@@ -444,8 +409,8 @@ a:visited, a:link  {
         font-size:0.75em;
     }
 
-.home-image{
-    min-width: 345px;
-}
+    .home-image{
+        min-width: 345px;
+    }
 
-  } 
+  }     
