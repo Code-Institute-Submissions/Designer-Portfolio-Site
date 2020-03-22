@@ -6,6 +6,7 @@
 A portfolio website is essential for designers to have a portfolio site to showcase their works, to provide the convenience for the employers or whoever is looking for a freelance designer. This is a website created for myself, who was a graphic designer to showcase my abilities in visual desigining. 
 
 The demo of the live website can be accessed here:
+
 https://jolenewai.github.io/Designer-Portfolio-Site/ 
 
 # UX/UI 
@@ -41,7 +42,7 @@ Information is structured in this way to cater to the audience needs. Usually fo
 
 The navigation is designed possible in two ways, first is through conventional scroll down, and another way is through direct clicking the nav bar. As this is a long page full of contents, to ease the navigation of each section, the navigation bar is fixed on the left side of the page (for desktop version), and expandable on top  (for mobile version). While user choose to navigate the page though the conventional way of scrolling down, the nav bar will show the section that the user is current in. 
 
-## Use of Colours
+## Colours
 
 Bright and vibrant colours are selected in this design to capture audience attention.
 
@@ -51,14 +52,14 @@ This set of colours are selected based on the following characteristic:
 
 __Primary Colours__
 
-* Yellow - positive energy and creativity
-* Black - Elegance and Formality
+<img src="images/Ellipse 1.png" width="20" style="margin: 0;"> Yellow - positive energy and creativity
+<img src="images/Ellipse 5.png" width="20" style="margin: 0;"> Black - Elegance and Formality
 
 __Secondary Colours__
 
-* Muted Pink - Passionate  
-* Turquoise Green - Balance and harmony
-* Orange - Vibrant, creativity
+<img src="images/Ellipse 3.png" width="20" style="margin: 0;"> Muted Pink - Passionate  
+<img src="images/Ellipse 2.png" width="20" style="margin: 0;"> Turquoise Green - Balance and harmony
+<img src="images/Ellipse 4.png" width="20" style="margin: 0;"> Orange - Vibrant, creativity
 
 ## Layout
 
@@ -75,9 +76,14 @@ __Negative Space__
 
 * Plenty of negative space are used so that users can focus on the content
 
+__Call for Action__
+
+* A contact form is created for contact purposes. On submit, the form will send an email to me with the form contents
+*This form is a dummy form created for demo purposes only*
+
 ## Technology
 
-* <a href="https://getbootstrap.com/docs/4.4/getting-started/introduction/">Bootstrap</a>
+* Bootstrap version 4.4</a>
 * HTML 
 * CSS
 * Javascript
@@ -88,7 +94,7 @@ The animation on the website are created using the following plugin created by [
 
 * Animate on Scroll [AOS] (https://michalsnik.github.io/aos/)
 
-## Reference
+## Reference / Credits
 
 ### Collapsable Nav Bar on Mobile Version
 
@@ -104,8 +110,11 @@ $(document).ready(function(){
 ```
 
 * The codes for expandable navigation bar functionality above had made reference to the following tutorial:
-
 [Bootstrap Sidebar](https://bootstrapious.com/p/bootstrap-sidebar)
+* [Bootstap Documentation](https://getbootstrap.com)
+* [W3 School](https://www.w3schools.com/)
+* [CSS Clip Path Maker](https://bennettfeely.com/clippy/)
+* [Google Material.io Resizer](https://material.io/resources/resizer/)
 
 --------
 
